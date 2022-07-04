@@ -1,0 +1,21 @@
+#web_page{
+    width: 100%;
+}
+
+#about{
+    background-color: #fff;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+   
+
+#about h2:before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 120px;
+    bottom: -40px;
+}
+

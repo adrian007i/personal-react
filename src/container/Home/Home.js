@@ -1,6 +1,5 @@
-import "./Home.css"
+import "./Home.css" 
 import ReactTypingEffect from 'react-typing-effect';
-import { Button } from 'react-bootstrap';
 
 const Home = () => {
 
@@ -10,11 +9,12 @@ const Home = () => {
                 <div className="table-cell">
                     <div className="container">
                         <h1 className="hero-title mb-4">Software Developer</h1>
-                        <h3 className="text-warning">Front-End 🔶 Back-End 🔶 Databases</h3>
-                        <span className="typed" >
+                        <h3 className="text-warning">Front-End 🔶  Back-End 🔶 Databases</h3>
+                        <span className="typed">
                             <ReactTypingEffect
+                                typingDelay = "1000"
                                 speed = "100"
-                                text={["Secure","Efficient","Beautiful"]}
+                                text = {["Secure","Efficient","Beautiful"]} 
                             />
                         </span> 
                     </div>
